@@ -1,4 +1,4 @@
-# Fixed Setup Guide - Stable Diffusion & LoRA Training
+# Troubleshooting Guide - LoRA Training Environment
 
 ## Issues Fixed
 

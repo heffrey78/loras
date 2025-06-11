@@ -137,5 +137,6 @@ The docs/ directory contains an 8-module comprehensive course:
 9. **Module 8**: Production pipeline
 
 Additional guides:
+- **README.md** - Main entry point and quick start guide
 - **training_data/LORA_TRAINING_GUIDE.md** - Face vs Style training comparison
-- **FIXED_SETUP.md** - Setup troubleshooting guide
+- **TROUBLESHOOTING.md** - Setup troubleshooting and common issues
