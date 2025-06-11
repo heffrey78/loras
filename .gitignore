@@ -1,0 +1,192 @@
+# Model Files
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+*.ggml
+*.q4_0
+*.q4_1
+*.q5_0
+*.q5_1
+*.q8_0
+
+# Large Training Files
+*.tar
+*.zip
+*.7z
+*.rar
+
+# Checkpoint and Model Directories
+models/checkpoints/
+models/lora/
+models/vae/
+models/controlnet/
+models/embeddings/
+stable-diffusion-webui-forge/models/
+kohya_ss/models/
+
+# Training Data and Outputs
+training_data/*/
+!training_data/LORA_TRAINING_GUIDE.md
+!training_data/my_face_lora/*.md
+!training_data/my_face_lora/*.txt
+!training_data/my_face_lora/*.sh
+outputs/images/
+outputs/loras/
+kohya_ss/outputs/
+kohya_ss/logs/
+stable-diffusion-webui-forge/outputs/
+
+# Cache and Temporary Files
+*.tmp
+*.temp
+cache/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+log/
+logs/
+
+# Database Files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git Submodules and Large External Repos
+# These are separate git repositories that should be handled as submodules
+kohya_ss/
+stable-diffusion-webui-forge/
+
+# Configuration Files with Potentially Sensitive Data
+config.json
+ui-config.json
+params.txt
+
+# Large Generated Files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.jpeg
+
+# Gradio and WebUI Specific
+stable-diffusion-webui-forge/config.json
+stable-diffusion-webui-forge/ui-config.json
+stable-diffusion-webui-forge/config_states/
+stable-diffusion-webui-forge/cache/
+stable-diffusion-webui-forge/repositories/
+stable-diffusion-webui-forge/venv/
+
+# Kohya Specific
+kohya_ss/venv/
+kohya_ss/uv.lock
+
+# Training Artifacts
+*.toml
+!config\ example.toml
+!**/examples/**/*.toml
+!**/test/**/*.toml
+
+# Backup Files
+*.bak
+*.backup
+*.old
+
+# Node modules (if any)
+node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
